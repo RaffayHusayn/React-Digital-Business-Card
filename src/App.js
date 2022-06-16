@@ -2,22 +2,22 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const funReactFactsList = [
+    'Was released in 2013',
+    'Was originally created by Jordan Walke',
+    'Has well over 100k stars on Github',
+    'Is maintained by Facebook',
+    'Powers thousands of enterprise applications including mobile apps'
+  ]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <img src={logo} id="react-logo" alt='react-logo'></img>
+      <h1>Fun Facts About React</h1>
+      <ul>
+        {funReactFactsList.map(fact=>(
+          <li>{fact}</li>
+        ))}
+      </ul>
     </div>
   );
 }
