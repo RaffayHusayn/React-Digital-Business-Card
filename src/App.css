@@ -28,8 +28,8 @@
   color: #61dafb;
 }
 
-#react-logo{
-  width: 100px;
+ul{
+  list-style: none;
 }
 
 @keyframes App-logo-spin {
