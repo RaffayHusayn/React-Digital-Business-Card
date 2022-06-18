@@ -1,6 +1,11 @@
- body, html{
-  margin : 0;
+ body{
+  /* margin : 0; */
   padding: 0px;
+  margin-bottom: 70px;
+}
+
+html{
+  position: relative;
 }
 .App {
   text-align: center;
@@ -46,6 +51,15 @@
   padding: 10px;
 }
 
+
+.Footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: grey;
+}
 
 @keyframes App-logo-spin {
   from {
