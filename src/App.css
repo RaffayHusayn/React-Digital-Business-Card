@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+} 
+
  body{
   padding: 0px;
   margin-bottom: 70px;
@@ -6,6 +10,7 @@
 html{
   position: relative;
 }
+
 .App {
   text-align: center;
 }
@@ -48,6 +53,16 @@ html{
 
 .nav-items>li{
   padding: 10px;
+}
+
+.nav-items > h3{
+  margin: 0px;
+  margin-right : auto;
+}
+
+.nav-items > img{
+  height : 30px;
+  margin-right: 7px;
 }
 
 
