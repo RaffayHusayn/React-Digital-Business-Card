@@ -4,7 +4,10 @@
 
  body{
   padding: 0px;
+  font-family: inter, sans-serif;
   margin-bottom: 70px;
+  background-color: #282c34;
+  color: aliceblue;
 }
 
 html{
@@ -13,8 +16,13 @@ html{
 
 .App {
   text-align: center;
+  /* background-image: url("https://raw.githubusercontent.com/facebook/react/25837acfee5f5305d49fe19649e010dbf4f887a2/packages/react-devtools-extensions/icons/128-deadcode.png"); */
 }
 
+.main{
+  border : solid red 1px;
+  height: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -57,12 +65,15 @@ html{
 
 .nav-items > h3{
   margin: 0px;
-  margin-right : auto;
+  padding: 15px 0px;
+  margin-right : auto; 
 }
 
 .nav-items > img{
-  height : 30px;
+  height : 50px;
   margin-right: 7px;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
