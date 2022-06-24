@@ -1,17 +1,24 @@
 *{
   box-sizing: border-box;
+  margin: 0 ;
+  padding: 0 ;
 } 
 
  body{
   padding: 0px;
   font-family: inter, sans-serif;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   background-color: #282c34;
   color: aliceblue;
+  border: solid green 1px;
+  /*To pin footer to the bottom we set the minimum height of the body to be
+  atleast total height - height of the footer*/
+  min-height: calc(100vh - 60px);
 }
 
 html{
   position: relative;
+  border: solid yellow 1px;
 }
 
 .App {
@@ -49,6 +56,7 @@ html{
   color: #61dafb;
 }
 .navbar{
+  background-color: #191b1f;
   padding: 0px;
   margin: 0px;
   box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
@@ -56,24 +64,30 @@ html{
 .nav-items{
   list-style: none;
   display: flex;
-  justify-content: right;
+  border: solid blue 1px;
 }
 
 .nav-items>li{
   padding: 10px;
+  border: solid red 1px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  
 }
 
 .nav-items > h3{
   margin: 0px;
-  padding: 15px 0px;
+  display: flex;
+  border: solid red 1px;
+  align-items: center;
   margin-right : auto; 
 }
 
 .nav-items > img{
   height : 50px;
   margin-right: 7px;
-  justify-content: center;
-  flex-direction: column;
+  border: solid red 1px;
 }
 
 
