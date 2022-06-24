@@ -9,7 +9,15 @@
   font-family: inter, sans-serif;
   margin-bottom: 60px;
   background-color: #282c34;
+  background-size: 10%;
   color: aliceblue;
+  /*
+  Setting background image and kinda cropping it
+  */
+  background-image: url("./images/react-background.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 120% 50%;
   /*To pin footer to the bottom we set the minimum height of the body to be
   atleast total height - height of the footer*/
   min-height: calc(100vh - 60px);
