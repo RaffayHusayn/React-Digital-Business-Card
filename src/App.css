@@ -10,7 +10,6 @@
   margin-bottom: 60px;
   background-color: #282c34;
   color: aliceblue;
-  border: solid green 1px;
   /*To pin footer to the bottom we set the minimum height of the body to be
   atleast total height - height of the footer*/
   min-height: calc(100vh - 60px);
@@ -18,7 +17,6 @@
 
 html{
   position: relative;
-  border: solid yellow 1px;
 }
 
 .App {
@@ -27,7 +25,6 @@ html{
 }
 
 .main{
-  border : solid red 1px;
   height: 100%;
 }
 .App-logo {
@@ -64,12 +61,10 @@ html{
 .nav-items{
   list-style: none;
   display: flex;
-  border: solid blue 1px;
 }
 
 .nav-items>li{
   padding: 10px;
-  border: solid red 1px;
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -79,7 +74,6 @@ html{
 .nav-items > h3{
   margin: 0px;
   display: flex;
-  border: solid red 1px;
   align-items: center;
   margin-right : auto; 
 }
@@ -87,7 +81,6 @@ html{
 .nav-items > img{
   height : 50px;
   margin-right: 7px;
-  border: solid red 1px;
 }
 
 
