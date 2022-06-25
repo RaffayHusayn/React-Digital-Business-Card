@@ -8,7 +8,7 @@ function Info(){
             <h4 id="info-profession">Viking Assassin</h4>
             <a href="_blank" id="info-website">iwanttokillaskeladd.com</a>
             <div className='btn-container'>
-                <button className="info-btn" ><MdEmail className='btn-icon'/>Email</button>
+                <button className="info-btn" id='info-email-btn'><MdEmail className='btn-icon'/>Email</button>
                 <button className="info-btn" id='info-linkedin-btn'><AiFillLinkedin className='btn-icon'/>Linkedin</button>
             </div>
         </div>
