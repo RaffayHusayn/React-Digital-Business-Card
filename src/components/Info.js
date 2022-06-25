@@ -1,3 +1,5 @@
+import {AiFillLinkedin } from 'react-icons/ai';
+import {MdEmail} from 'react-icons/md';
 function Info(){
     return(
         <div className="info-section">
@@ -5,8 +7,10 @@ function Info(){
             <h2 id="info-name">Thorfinn (トルフィン)</h2>
             <h4 id="info-profession">Viking Assassin</h4>
             <a href="_blank" id="info-website">iwanttokillaskeladd.com</a>
-            <button className="info-btn">email</button>
-            <button className="info-btn">linkedin</button>
+            <div className='btn-container'>
+                <button className="info-btn" ><MdEmail className='btn-icon'/>Email</button>
+                <button className="info-btn" id='info-linkedin-btn'><AiFillLinkedin className='btn-icon'/>Linkedin</button>
+            </div>
         </div>
     )
 }
