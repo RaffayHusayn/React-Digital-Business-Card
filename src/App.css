@@ -2,22 +2,16 @@
   box-sizing: border-box;
   margin: 0 ;
   padding: 0 ;
+  /* border: solid red 1px; */
 } 
 
  body{
   padding: 0px;
   font-family: inter, sans-serif;
   margin-bottom: 60px;
-  background-color: #282c34;
   background-size: 10%;
   color: aliceblue;
-  /*
-  Setting background image and kinda cropping it
-  */
-  background-image: url("./images/react-background.png");
-  background-repeat: no-repeat;
-  background-size: 30%;
-  background-position: 120% 50%;
+  border: solid red 1px;
   /*To pin footer to the bottom we set the minimum height of the body to be
   atleast total height - height of the footer*/
   min-height: calc(100vh - 60px);
@@ -25,11 +19,14 @@
 
 html{
   position: relative;
+  max-width: 317px;
+  margin: auto;
+  background-color: #282c34;
+  border: blue solid 1px;
 }
 
 .App {
   text-align: center;
-  /* background-image: url("https://raw.githubusercontent.com/facebook/react/25837acfee5f5305d49fe19649e010dbf4f887a2/packages/react-devtools-extensions/icons/128-deadcode.png"); */
 }
 
 .main{
@@ -108,4 +105,24 @@ html{
   to {
     transform: rotate(360deg);
   }
+}
+
+#info-image{
+  width: 317px;
+  height: 317px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#info-profession{
+  color:rgb(187, 154, 33);
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+#info-website{
+  display: block;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
 }
