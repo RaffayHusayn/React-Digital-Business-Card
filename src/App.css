@@ -100,7 +100,6 @@ html{
   cursor:pointer;
 }
 
-
 .btn-icon{
   height: 25px;
   width: auto;
@@ -109,4 +108,20 @@ html{
 .btn-container{
   display: flex;
   justify-content: center;
+}
+
+.body-heading{
+  text-align: left;
+  padding: 0px 10px;
+  margin: 10px;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.body-text{
+  text-align: left;
+  padding: 0px 10px;
+  margin: 10px;
+  font-size: small;
+  font-weight: 300;
 }
